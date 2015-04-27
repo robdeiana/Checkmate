@@ -27,7 +27,7 @@ class database
     {
         $mysqli = new mysqli();
         $mysqli->connect(Settings::$host, Settings::$user,
-        Settings::$password, Settings::$name);
+        Settings::$password, Settings::$db);
         
         if($mysqli->errno != 0)
             return null;
