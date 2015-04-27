@@ -26,8 +26,8 @@ class database
     public function databaseConnection()
     {
         $mysqli = new mysqli();
-        $mysqli->connect(Settings::$db_host, Settings::$db_username,
-        Settings::$db_password, Settings::$db_name);
+        $mysqli->connect(Settings::$host, Settings::$username,
+        Settings::$password, Settings::$name);
         
         if($mysqli->errno != 0)
             return null;
