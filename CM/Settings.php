@@ -24,7 +24,7 @@
                     break;
                 case 'spano.sc.unica.it':
                     // configurazione pubblica
-                    self::$appPath = 'http://' . $_SERVER['HTTP_HOST'] . '/amm2014/deianaRoberto/';
+                    self::$appPath = 'http://' . $_SERVER['HTTP_HOST'] . '/amm2014/deianaRoberto/CM/';
                     break;
                 default:
                     self::$appPath = '';
