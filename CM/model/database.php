@@ -1,6 +1,6 @@
 <?php
 
-include_once './model/settings.php';
+include_once './Settings.php';
 
 // Gives database data
 class database
