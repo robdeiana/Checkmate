@@ -29,6 +29,7 @@ $(document).ready(function()
 
                     success: function(html)
                     {
+                        alert(html);
                         if(html)
                         {
                             $("#login_form").fadeOut("normal");
